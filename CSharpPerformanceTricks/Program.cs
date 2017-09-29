@@ -26,6 +26,7 @@ namespace CSharpPerformanceTricks
 			Console.WriteLine ("Going to draw a square...");
 			DrawSquare (100, 100, 50, 50);
 			Console.WriteLine("All done!");
-		}
-	}
+            Console.ReadLine();
+        }
+    }
 }
